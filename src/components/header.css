@@ -1,45 +1,48 @@
 @keyframes colorizer {
-    0%{color: blue}
-    25%{color: yellow}
+    
+    0%{color: orange}
     50%{color: red}
-    75%{color:greenyellow}
-    100%{color: blue}
+    75%{color: yellow}
+    100%{color: orange}
+    
 }
 
 @keyframes colorizer-bg {
     0%{background-color: blue}
-    25%{background-color: yellow}
-    50%{background-color: red}
-    75%{color:greenyellow}
+
+    50%{background-color: purple}
+
     100%{background-color: blue}
 }
 
 .main-header{
     width: 100%;
-    background-color: #000;
+    background-color: rgb(67, 13, 102);
     height: 4em;
     color: #fff;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .site-title{
-    margin-left: 0.5em;
+    
     animation: colorizer 5s infinite linear;
     align-self: center;
 }
 
-.insta-logo{
-    width: 2em;
-    margin-right: 1em;
-    margin: 0 auto;
+.site-logo{
+    width: 3.5em;
+    margin:0.25em 1em;
+    align-self: center;
 }
 
 .header-left-elements{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
     align-self: flex-end;
+    
 }
 
 .header-right-elements{
