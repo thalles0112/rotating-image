@@ -1,0 +1,52 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 92vh;
+}
+
+.rotator-wrapper{
+    display: flex;
+    
+    justify-content: center;
+    width: 100%;
+}
+
+.site-subtitle{
+    
+    text-align: center;
+    padding: 2em;
+
+}
+
+.fix{
+    margin: 0 100%;
+}
+
+.user-info{
+    text-align: center;
+}
+
+.visible{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.close-user-info{
+    align-self: center;
+    border-radius: 14px;
+    background-color: rgb(233, 91, 91);
+    text-align: center;
+    width: fit-content;
+    margin: 1em auto;
+    color: white;
+    padding: 8px;
+    
+}
+
+.close-user-info:hover{
+    cursor: pointer;
+}

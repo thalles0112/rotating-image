@@ -1,0 +1,49 @@
+
+@keyframes spinner {
+    0% { 
+       -webkit-transform: rotate3d(0, 1, 0, 0deg);
+       -ms-transform: rotate3d(0, 1, 0, 0deg);
+       -o-transform: rotate3d(0, 1, 0, 0deg);
+       transform: rotate3d(0, 1, 0, 0deg);
+    }
+    50% { 
+       -webkit-transform: rotate3d(0, 1, 0, 180deg);
+       -ms-transform: rotate3d(0, 1, 0, 180deg);
+       -o-transform: rotate3d(0, 1, 0, 180deg);
+       transform: rotate3d(0, 1, 0, 180deg);
+    }
+    100% { 
+        -webkit-transform: rotate3d(0, 1, 0, 360deg);
+       -ms-transform: rotate3d(0, 1, 0, 360deg);
+       -o-transform: rotate3d(0, 1, 0, 360deg);
+       transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
+
+
+.palco{
+    background-image: radial-gradient(#fff,rgb(207, 207, 207));
+    width: 40em;
+    border-radius: 100%;
+    box-shadow: 2px 20px 15px #bbb;
+    position: relative;
+    margin-top: 20em;
+}
+
+
+
+.rotating-image{
+    width: 20em;
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    bottom: 2em;
+    animation: spinner 6s infinite linear;
+}
+
+.no-image{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    bottom: 100%;
+}
