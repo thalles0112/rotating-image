@@ -37,8 +37,9 @@
 
 .header-left-elements{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-end;
+    align-self: flex-end;
 }
 
 .header-right-elements{

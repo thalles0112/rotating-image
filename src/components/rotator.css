@@ -1,3 +1,14 @@
+@media only screen and (min-width:700px){
+    .palco{
+        max-width: 60vw;
+    }
+}
+
+@media only screen and (min-width:600px){
+    .palco{
+        max-width: 70vw;
+    }
+}
 
 @keyframes spinner {
     0% { 
@@ -22,28 +33,29 @@
 
 
 .palco{
+    display: flex;
     background-image: radial-gradient(#fff,rgb(207, 207, 207));
-    width: 40em;
     border-radius: 100%;
     box-shadow: 2px 20px 15px #bbb;
-    position: relative;
+    height: 1.5em;
     margin-top: 20em;
+    overflow: visible;
+    align-items: flex-end;
+    justify-content: center;
+    
 }
 
 
 
 .rotating-image{
-    width: 20em;
-    left: 25%;
-    right: 25%;
-    position: absolute;
-    bottom: 2em;
+    max-width: 75%;
+    
+
+    margin-bottom: 2em;
     animation: spinner 6s infinite linear;
 }
 
 .no-image{
-    position: absolute;
-    left: 30%;
-    right: 30%;
-    bottom: 100%;
+    
+    align-self: center;
 }

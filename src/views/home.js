@@ -28,8 +28,8 @@ export default function Home(){
             </div>
             <div className="fix"></div>
 
-            <div className={className}>
-            <span className={`user-info`}>
+            <div className={`user-info ${className}`}>
+            <span >
                 Seus dados são apenas armazendos no cache do navegador, não há nenhum servidor de arquivos sendo usado para armazenar suas imagens. Assim que você recarregar a pagina o arquivo que você enviou desaparecerá.
             </span>
             <div onClick={closeHandler} className="close-user-info">fechar</div>
