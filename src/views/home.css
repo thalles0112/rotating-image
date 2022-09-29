@@ -20,7 +20,9 @@
 }
 
 .fix{
-    margin: 0 100%;
+    margin-top: 4em;
+   
+    
 }
 
 .user-info{
@@ -51,4 +53,8 @@
 
 .close-user-info:hover{
     cursor: pointer;
+}
+
+.other-wrapper{
+    margin-top: 20%;
 }

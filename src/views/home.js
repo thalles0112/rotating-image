@@ -19,14 +19,14 @@ export default function Home(){
     return(
         <div className="home-page">
             <h2 className="site-subtitle">Suas fotos rodando horizontalmente!</h2>
-            <div className="fix"></div>
-            <div>
+            <div className="fix"/>
+            <div className="other-wrapper">
                 <div className="rotator-wrapper">
                     <Rotator image={image}/>
                 </div>
                 <Uploader imageSetter={uploadHandler}/>
             </div>
-            <div className="fix"></div>
+            <div className="fix"/>
 
             <div className={`user-info ${className}`}>
             <span >
